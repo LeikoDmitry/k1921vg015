@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a483587e-8b7f-4b3d-b241-46b0b530e8b8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.1 53.34) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3c920649-d343-4e79-8dbc-e60960866962)
+    (property "Sheetname" "K1921VG015_mcu" (at 38.1 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "K1921VG015_mcu.kicad_sch" (at 38.1 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "K1921VG015_board"
+        (path "/a483587e-8b7f-4b3d-b241-46b0b530e8b8" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 76.2) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7b5727fc-e7d1-424b-b382-89d2ed7a7beb)
+    (property "Sheetname" "Pin_mcu" (at 38.1 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Pin_mcu.kicad_sch" (at 38.1 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "K1921VG015_board"
+        (path "/a483587e-8b7f-4b3d-b241-46b0b530e8b8" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 67.31 29.21) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a2a0f098-0a18-44aa-a102-df1f72993772)
+    (property "Sheetname" "JTAG_mcu" (at 67.31 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "JTAG_mcu.kicad_sch" (at 67.31 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "K1921VG015_board"
+        (path "/a483587e-8b7f-4b3d-b241-46b0b530e8b8" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 29.21) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c65c0c34-2128-4a02-9354-15cf77ccbcbe)
+    (property "Sheetname" "Usb_c" (at 38.1 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_c.kicad_sch" (at 38.1 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "K1921VG015_board"
+        (path "/a483587e-8b7f-4b3d-b241-46b0b530e8b8" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
