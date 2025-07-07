@@ -11,5 +11,7 @@
 - C10 / C14 - 0.1uf
 
 ## Номиналы индуктивностей L1 - L4 и резистора R10
-
 - R10 = 100/300ом
+
+![image_1](/GdUvem2mzhg.jpg)
+![image_2](/GvVZwkPapc4.jpg)
